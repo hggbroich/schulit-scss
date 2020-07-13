@@ -1,0 +1,34 @@
+/** Override dropdown-toggles */
+.btn-secondary.dropdown-toggle {
+  @extend .btn-primary;
+}
+
+[data-theme=dark] {
+  .bg-primary {
+    background-color: $default-color !important;
+
+    &:hover {
+      background-color: darken($default-color, 20%) !important;
+    }
+
+    .badge-light {
+      background: $primary !important;
+      color: white;
+    }
+
+    &.text-white {
+      color: $primary !important;
+    }
+  }
+
+  .badge-primary {
+    background: $default-color !important;
+    color: $primary !important;
+  }
+}
+
+.navbar.navbar-dark {
+  .badge.badge-primary {
+    @extend .badge-light;
+  }
+}

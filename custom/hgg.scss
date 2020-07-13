@@ -1,0 +1,22 @@
+/** HGG colors */
+$red: #d50c2f;
+$blue: #00162c;
+
+/** Override menu */
+$dark-brand-background: #bebebe !important;
+$primary-menu-background: $blue;
+$secondary-menu-background: $red;
+
+$dark-primary-menu-background: #171717;
+$dark-secondary-menu-background: $red;
+
+/** Override primary and danger colors */
+$primary: $blue;
+$danger: $red;
+
+/** Override footer */
+$dark-footer-img-padding: 0.5rem;
+$dark-footer-img-background: #bebebe;
+$dark-footer-img-border-radius: 0.25rem;
+
+$nav-pills-link-active-bg: $red;
